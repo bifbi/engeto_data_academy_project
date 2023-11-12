@@ -9,7 +9,7 @@
 ## Zadání projektu
 Připravit datové podklady pro analytické oddělení týkající se dostupnosti základních potravin veřejnosti a to s ohledem na průměrné příjmy občanů v určitém časovém období. Kromě toho také vytvořit tabulku s údaji o HDP, GINI koeficientu a populaci dalších evropských států ve stejném období jako primární přehled pro Českou republiku.
 
-##Výzkumné otázky
+## Výzkumné otázky
 1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
 2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
 3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
