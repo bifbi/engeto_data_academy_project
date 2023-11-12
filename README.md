@@ -18,7 +18,11 @@ Připravit datové podklady pro analytické oddělení týkající se dostupnost
 
 ## Odpovědi na výzkumné otázky
 1. Bohužel mzdy nerostou v průběhu let ve většině odvětvích, a to s výjimkou:
-		- Doprava a skladování
-		- Administrativní a podpůrné činnosti
-		- Zdravotní a sociální péče
-		- Ostatních činností
+	- Doprava a skladování
+	- Administrativní a podpůrné činnosti
+	- Zdravotní a sociální péče
+	- Ostatních činností
+2. Za první srovnatelné období (2006) bylo možné si koupit 1403 litrů polotučného mléka a 1257 kg chleba. 
+	Za poslední srovnatelné období (2018) bylo možné si koupit 1611 litrů polotučného mléka a 1317 kg chleba.
+    V roce 2018 bylo tak možné koupit si více mléka i chleba za průměrný plat, což je způsobené nárůstem průměrného platu o 57,53% oproti roce 2016.
+3. Průměrně nejpomaleji zdražují banány žluté, a to o 0,81 % za rok. Zajímavá situace nastává u cukru krystalového, který dokonce zlevňuje, a to průměrně o 1,92 % za rok. 
