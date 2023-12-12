@@ -1,6 +1,5 @@
 -- úkol 2
 -- Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
--- takže v podstatě L mléka / plat
 
 -- výpočet průměrů ročních platů
 SELECT payroll_year, AVG(value) AS avg_salary

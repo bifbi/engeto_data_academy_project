@@ -1,3 +1,4 @@
+-- úkol 5
 -- Má výška HDP vliv na změny ve mzdách a cenách potravin? 
 -- Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
 
@@ -28,6 +29,7 @@ WHERE
     value_type_code = 5958
     AND calculation_code = 100
     AND industry_branch_code IS NOT NULL
+    AND country = "Czech Republic"
 GROUP BY
     payroll_year
 ORDER BY

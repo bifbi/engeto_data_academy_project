@@ -1,4 +1,5 @@
--- Úkol 1
+-- Úkol 1 - Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
+
 -- výběr dat [mzdy, fyzický, ne NULL]
 SELECT *
 FROM czechia_payroll
@@ -41,7 +42,7 @@ SELECT DISTINCT(industry_branch_code), comparison
 FROM year_comparisons
 WHERE comparison = 'DECREASE';
 
--- final code
+-- finální kód
 WITH decreases AS (WITH year_comparisons AS (WITH year_average AS (SELECT value, industry_branch_code, payroll_year, AVG(value) AS year_average
 FROM czechia_payroll
 WHERE value_type_code = 5958 AND calculation_code = 100 AND industry_branch_code IS NOT NULL
@@ -60,7 +61,7 @@ SELECT code, name, comparison
 FROM czechia_payroll_industry_branch
 LEFT JOIN decreases ON decreases.industry_branch_code = czechia_payroll_industry_branch.code;
 
--- final optimised code
+-- finální kód, optimalizovaný
 WITH decreases AS (SELECT value, industry_branch_code, payroll_year, AVG(value) AS year_average,
 CASE
 	WHEN AVG(value) < LAG(AVG(value), 1) OVER (PARTITION BY industry_branch_code ORDER BY payroll_year) THEN "DECREASE"
